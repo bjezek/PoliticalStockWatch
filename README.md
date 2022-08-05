@@ -1,4 +1,76 @@
 # PoliticalStockWatch
+Compared politicians Nancy Pelosi & Sheldon Whitehous VS S&P 500
+
+
+
+# Libaries to import 
+import pandas as pd
+import hvplot.pandas
+from MCForecastTools import MCSimulation
+import matplotlib as plt
+%matplotlib inline
+import numpy as np
+import yfinance as yf
+import datetime as dt
+from pandas_datareader import data
+import pandas_datareader as pdr
+import holoviews as hv
+from datetime import timedelta
+from pathlib import Path
+import seaborn as sns
+import pandas_montecarlo
+
+
+
+
+
+
+
+
+
+# Group analysis 
+FINAL REPORT
+Sharpe Ratio:
+Pelosi's 1 Year Sharpe Ratio: 132.55410874505054
+Sheldon's 1 Year Sharpe Ratio: 194.03089760952793
+SPY's 1 Year Sharpe Ratio: 229.84652886191716
+Standard Deviation:
+Pelosi's STD: 689.891492123228
+Sheldon's STD: 553.3679365764682
+SPY STD: 460.6908835519656
+SPY has a better Risk/Return ratio than Pelosi's portfolio
+Pelosi's stock portfolio is more volatile than the SPY
+SPY has a better Risk/Return ratio than Sheldon's portfolio
+Sheldon's stock portfolio is more volatile than the SPY
+Sheldon's portfolio has a better Risk/Return ratio than Pelosi's
+Pelosi's portfolio is more volatile than Sheldon's
+Pelosi has the most volatile portfolio
+SPY has the best Risk/Return Ratio
+Republicans win, Sheldon has a better Risk/Return than Pelosi
+BUT, even Sheldon couldn't beat the market. SPY had the best overall Risk/Return
+
+
+
+
+
+
+
+# Functions used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # HVPlot that ran in Juypter Notebook
 Wanted to implement HVplot for these graphs(still usable for analyst)
