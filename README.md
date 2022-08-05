@@ -56,11 +56,28 @@ BUT, even Sheldon couldn't beat the market. SPY had the best overall Risk/Return
 
 
 # Functions used
+1. .dropna()
+	2. .pct_change()
+	3. .var (variance)
+	4. .cov() (covariance)
+	5. .std (standard deviation)
+	6. .mean()
+	7. .hvplot()
+	8. .cumprod()
+	9. .concat()
+	10.  .rolling()
+11. .sort_values()
+12. Pandas_montecarlo
 
 
 
 
 
+
+
+
+# Overview 
+Created multiple datasets and variables representing 2 politicians, Nancy Pelosi and Sheldon Whitehouse, and the SPY. We then used financial analysis functions in order to calculate and plot standard deviations, sharpe ratios, cumulative returns, etc. Used seaborn in order to visualize a heatmap of correlated stocks in a concatenated dataframe between Pelosi and SPY. Created conditional statements that allowed comparison between politicians and the SPY in order to make final conclusions
 
 
 
@@ -73,8 +90,14 @@ BUT, even Sheldon couldn't beat the market. SPY had the best overall Risk/Return
 
 
 # HVPlot that ran in Juypter Notebook
+
 Wanted to implement HVplot for these graphs(still usable for analyst)
 ![image](https://user-images.githubusercontent.com/106267420/182759056-a2244daa-3151-48c1-8e48-e5a276a90aa1.png)
 ![image](https://user-images.githubusercontent.com/106267420/182759090-3b19b60f-6697-4667-8871-a5eafa757521.png)
 ![image](https://user-images.githubusercontent.com/106267420/182759132-72802ab3-2b15-4494-8eeb-86dd8316fae3.png)
 ![image](https://user-images.githubusercontent.com/106267420/182759195-346cd274-d75e-4f29-aae0-f416bb7af0cc.png)
+![image](https://user-images.githubusercontent.com/106267420/182984624-29db8b28-2ce0-45b6-8e70-9feaec8c6e42.png)
+![image](https://user-images.githubusercontent.com/106267420/182984966-d9452697-88e4-4094-9269-06fffeb3b13c.png)
+![image](https://user-images.githubusercontent.com/106267420/182985008-89b4f9d3-96da-4aee-b5e3-136e2210f80e.png)
+
+
