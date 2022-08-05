@@ -65,7 +65,7 @@ BUT, even Sheldon couldn't beat the market. SPY had the best overall Risk/Return
 	7. .hvplot()
 	8. .cumprod()
 	9. .concat()
-	10.  .rolling() 11. .sort_values() 12. .montecarlo, plot(),.heatmap(),.corr()
+	10.  .rolling() 11. .sort_values() 12. .montecarlo, plot(),.heatmap(),.corr() .legend.sum(),.stats.read_csv(),.drop(),.head(),sqrt(),.datetime(),get_data_yahoo()
 
 
 
