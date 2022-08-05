@@ -4,20 +4,20 @@ Compared politicians Nancy Pelosi & Sheldon Whitehous VS S&P 500
 
 
 # Libaries to import 
-import pandas as pd
-import hvplot.pandas
-from MCForecastTools import MCSimulation
-import matplotlib as plt
-%matplotlib inline
-import numpy as np
-import yfinance as yf
-import datetime as dt
-from pandas_datareader import data
-import pandas_datareader as pdr
-import holoviews as hv
-from datetime import timedelta
-from pathlib import Path
-import seaborn as sns
+import pandas as pd,
+import hvplot.pandas,
+from MCForecastTools import MCSimulation,
+import matplotlib as plt,
+%matplotlib inline,
+import numpy as np,
+import yfinance as yf,
+import datetime as dt,
+from pandas_datareader import data,
+import pandas_datareader as pdr,
+import holoviews as hv,
+from datetime import timedelta,
+from pathlib import Path,
+import seaborn as sns,
 import pandas_montecarlo
 
 
